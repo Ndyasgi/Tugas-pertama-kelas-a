@@ -1,0 +1,173 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    color: #152C5B;
+}
+.header h2 {
+    color: #152C5B;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 125px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget__your p {
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+.beach {
+    margin-left: 50px;
+    display: flex;
+}
+
+.test {
+    flex-direction: column;
+}
+.beach .test img {
+    padding-left: 29px;
+    padding-bottom: 23px;
+}
+
+.box {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.box .house img {
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.happy {
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+}
+.happy img {
+    padding-right: 50px;
+}
+.hap h3 {
+    font-size: 25px;
+    color: #152C5B;
+}
+.hap h4 {
+    font-size: 22px;
+    color: #152C5B;
+}
+.hap h5 {
+    font-size: 18px;
+    color: #152C5B;
+}
+.hap {
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.ui {
+    color: #152C5B;
+}
+.hap button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.for {
+    padding-left: 50px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.for p {
+    padding-left: 50px;
+    font-size: 18px;
+    color: #B0B0B0;
+}
+.for h5 {
+    padding-left: 50px;
+    font-size: 18px;
+    color: #152C5B;
+}
+.finish h5 {
+    padding-left: 450px;
+    align-items: center;
+}
